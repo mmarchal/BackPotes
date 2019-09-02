@@ -18,8 +18,8 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.util.Arrays;
 
-import static com.example.maxime.security.Constants.HEADER_STRING;
-import static com.example.maxime.security.Constants.TOKEN_PREFIX;
+import static maxime.back.potes.security.Constants.HEADER_STRING;
+import static maxime.back.potes.security.Constants.TOKEN_PREFIX;
 
 public class JwtAuthenticationFilter extends OncePerRequestFilter {
 

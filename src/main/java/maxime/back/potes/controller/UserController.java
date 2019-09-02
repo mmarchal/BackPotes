@@ -1,7 +1,7 @@
 package maxime.back.potes.controller;
 
-import com.example.maxime.dto.UserDto;
-import com.example.maxime.service.UserService;
+import maxime.back.potes.dto.UserDto;
+import maxime.back.potes.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

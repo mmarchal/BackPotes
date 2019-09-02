@@ -12,8 +12,8 @@ import java.util.Arrays;
 import java.util.Date;
 import java.util.function.Function;
 
-import static com.example.maxime.security.Constants.ACCESS_TOKEN_VALIDITY_SECONDS;
-import static com.example.maxime.security.Constants.SIGNING_KEY;
+import static maxime.back.potes.security.Constants.ACCESS_TOKEN_VALIDITY_SECONDS;
+import static maxime.back.potes.security.Constants.SIGNING_KEY;
 
 @Component
 public class JwtTokenUtil implements Serializable {

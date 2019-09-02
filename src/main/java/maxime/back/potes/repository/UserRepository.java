@@ -1,6 +1,6 @@
 package maxime.back.potes.repository;
 
-import com.example.maxime.entities.User;
+import maxime.back.potes.entities.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;

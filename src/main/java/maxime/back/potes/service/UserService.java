@@ -1,9 +1,9 @@
 package maxime.back.potes.service;
 
-import com.example.maxime.converter.GenericConverter;
-import com.example.maxime.dto.UserDto;
-import com.example.maxime.entities.User;
-import com.example.maxime.repository.UserRepository;
+import maxime.back.potes.converter.GenericConverter;
+import maxime.back.potes.dto.UserDto;
+import maxime.back.potes.entities.User;
+import maxime.back.potes.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
